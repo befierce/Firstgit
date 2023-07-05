@@ -9,5 +9,9 @@ const list = document.getElementsByClassName("list-group-item");
 for (let i = 0; i < list.length; i++) {
     list[i].style.color = 'voilet';
     list[i].style.fontWeight = 'bold';
-  }
-  list[2].style.backgroundColor = 'yellow';
+}
+list[2].style.backgroundColor = 'yellow';
+var li = document.getElementsByTagName('li');
+li[4].textContent = 'new item';
+li[4].style.backgroundColor = '#D03D56';
+li[4].style.fontWeight = 'bold'
