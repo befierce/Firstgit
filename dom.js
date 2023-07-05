@@ -10,3 +10,4 @@ for (let i = 0; i < list.length; i++) {
     list[i].style.color = 'voilet';
     list[i].style.fontWeight = 'bold';
   }
+  list[2].style.backgroundColor = 'yellow';
